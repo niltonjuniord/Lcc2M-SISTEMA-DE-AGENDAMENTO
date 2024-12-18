@@ -22,12 +22,15 @@ public class VerificarLogin extends LoginVerificar {
     @Override
     public void Verificar(String n,String s){
         
-        if((n.equals(c.getNome())) && (s.equals(c.getSenha()))){     
+        if((n.equals(c.getNome())) && (s.equals(c.getSenha()))){   
+            
              //this.Iniciar();
             setControl(true);
         }else{
             setControl(false);
            JOptionPane.showMessageDialog(null,"NOME OU SENHA ERRADA!!"); 
         }
+        
+
     }
 }

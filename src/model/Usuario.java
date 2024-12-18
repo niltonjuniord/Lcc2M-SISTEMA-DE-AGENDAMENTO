@@ -16,13 +16,13 @@ public class Usuario {
     private final String nome_completo= "Nilton Júnior Castelão da Silva";
 
     private final String n_estudante = "20230214";
-    private final String trabalho = "Programação II";
+    private final String trabalho = "Programação III";
     private final String datas = "24/04/2002";
     private final String turma = "LCC2M";
     private final String curso = "CIÊNCIA DA COMPUTAÇÃO";
     private final String turno = "Manhã";
-    private final String ano_l = "2024";
-    private final String residente = "KILAMBA KIAXI";
+    private final String ano_l = "2024/2025";
+    private final String residente = "Talatona";
     
     
     

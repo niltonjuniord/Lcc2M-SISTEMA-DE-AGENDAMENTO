@@ -61,14 +61,14 @@ public class Perfil extends javax.swing.JFrame {
         dashboard.setLayout(null);
 
         lb_ano.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_ano.setText("nome");
+        lb_ano.setText("2024/2025");
         dashboard.add(lb_ano);
         lb_ano.setBounds(440, 360, 180, 30);
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel4.setText("DADOS DE ESTUDANTE");
         dashboard.add(jLabel4);
-        jLabel4.setBounds(230, 220, 210, 36);
+        jLabel4.setBounds(210, 210, 210, 36);
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel5.setText("Curso:");
@@ -96,7 +96,7 @@ public class Perfil extends javax.swing.JFrame {
         jLabel9.setBounds(340, 310, 60, 30);
 
         jLabel10.setBackground(new java.awt.Color(102, 102, 255));
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/views/assets/teach.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\nilto\\OneDrive\\Imagens\\copia2.jpg")); // NOI18N
         jLabel10.setText("Foto");
         dashboard.add(jLabel10);
         jLabel10.setBounds(10, 20, 140, 150);
@@ -122,42 +122,42 @@ public class Perfil extends javax.swing.JFrame {
         jLabel14.setBounds(200, 70, 50, 30);
 
         lb_data.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_data.setText("nome");
+        lb_data.setText("24/04/2002");
         dashboard.add(lb_data);
         lb_data.setBounds(260, 70, 290, 30);
 
         lb_nome.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_nome.setText("nome");
+        lb_nome.setText("Nilton Júnior Castelão Da Silva");
         dashboard.add(lb_nome);
         lb_nome.setBounds(270, 30, 290, 30);
 
         lb_casa.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_casa.setText("nome");
+        lb_casa.setText("Talatona");
         dashboard.add(lb_casa);
         lb_casa.setBounds(310, 120, 290, 30);
 
         lb_curso.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_curso.setText("nome");
+        lb_curso.setText("Ciência da Computação");
         dashboard.add(lb_curso);
         lb_curso.setBounds(70, 260, 260, 30);
 
         lb_numero.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_numero.setText("nome");
+        lb_numero.setText("20230214");
         dashboard.add(lb_numero);
         lb_numero.setBounds(140, 310, 180, 30);
 
         lb_turma.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_turma.setText("nome");
+        lb_turma.setText("LCC2M");
         dashboard.add(lb_turma);
         lb_turma.setBounds(70, 360, 180, 30);
 
         lb_turno.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_turno.setText("nome");
+        lb_turno.setText("Manhã");
         dashboard.add(lb_turno);
         lb_turno.setBounds(400, 310, 250, 30);
 
         lb_cadeira.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        lb_cadeira.setText("nome");
+        lb_cadeira.setText("Programação III");
         dashboard.add(lb_cadeira);
         lb_cadeira.setBounds(420, 260, 250, 30);
 

@@ -57,7 +57,10 @@ public class Agendas extends javax.swing.JFrame {
         agenda_tabela.setForeground(new java.awt.Color(24, 67, 162));
         agenda_tabela.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-
+                {"Segunda", "23/12/2024", "07:30", "Aula de calculo numerico"},
+                {"Segunda", "23/12/2024", "14:30", "trabalho"},
+                {"Terça", "24/12/2024", "17:30", "Ginásio"},
+                {"Terça", "24/12/2024", "22:00", null}
             },
             new String [] {
                 "Semana", "Data", "Hora", "Atividade"
